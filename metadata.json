@@ -1,0 +1,7 @@
+{
+  "name": "English G11",
+  "description": "A comprehensive English learning SPA for 11th-grade students in Vietnam, focusing on 'The Generation Gap' and advanced grammar.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
