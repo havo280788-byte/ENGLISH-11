@@ -2,13 +2,13 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ViewType, UserStats, UserAccount } from './types';
 import { COURSE_DATA } from './constants';
-import Sidebar from './components/Sidebar';
-import Dashboard from './components/Dashboard';
-import VocabularyModule from './components/VocabularyModule';
-import GrammarModule from './components/GrammarModule';
-import SpeakingModule from './components/SpeakingModule';
-import WritingModule from './components/WritingModule';
-import Auth from './components/Auth';
+import Sidebar from './components/Sidebar.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import VocabularyModule from './components/VocabularyModule.tsx';
+import GrammarModule from './components/GrammarModule.tsx';
+import SpeakingModule from './components/SpeakingModule.tsx';
+import WritingModule from './components/WritingModule.tsx';
+import Auth from './components/Auth.tsx';
 
 const TOTAL_MODULES = 20;
 const SCHOOL_BG_IMAGE = "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?q=80&w=2070&auto=format&fit=crop";
